@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form>
+            <h1 align="center">Registration Form</h1>
+            <table border="5px" width="40%" height="60%" align="center" >
+                
+                <tr> <th><b>First Name :</b></th>
+                <td><input type="text" required placeholder="First Name" maxlength="50"></td>
+                </tr>
+                
+                <tr> <th> <b>Last Name : </b></th>
+                <td><input type="text" required placeholder="Last Name" maxlength="50"></td>
+                </tr>
+                
+                <tr> <th> <b>Contact no. :</b></th>
+                <td><input type="text" pattern="\d{10}" minlength="10" maxlength="10"
+                required placeholder="eg-9889005412"></td>
+                </tr>
+                
+                <tr> <th><b>Email :</b></th>
+                <td><input type="email" required placeholder="eg-xyz@gmail.com"></td>
+                </tr>
+                
+                <tr> <th>Password</th>
+                <td><input type="password" placeholder="Password"></td>
+                </tr>
+                
+                <tr> <th><b>Date of Birth</b></th>
+                <td><input type="date" required></td>
+                </tr>
+                
+                <tr> <th>Age</th>
+                <td><input type="Number" min="18" max="40" required></td>
+                </tr>
+                
+                <tr> <th> <b>Gender</b></th>
+                <td>Male
+                <input type="radio" name="gender">
+                Female
+                <input type="radio" name="gender">
+                </td>
+                </tr>
+                
+                <tr> <th>Address</th>
+                <td><textarea name="Address" id="" cols="60" rows="3"></textarea></td>
+                </tr>
+                
+                <tr> <th>City</th>
+                <td><select name="City" id="">
+                <option value="" disabled selected>Select City</option>
+                <option value="">Ahmedabad</option>
+                <option value="">Vadodara</option>
+                <option value="">Morbi</option>
+                </select>
+                </td>
+                </tr>
+                
+                <tr> <th>Pincode</th>
+                <td><input type="text" pattern="\d*" maxlength="6"></td>
+                </tr>
+            
+            </table>
+            <br>
+            <input style="font-size: 15px; margin-left: 600px; width:150px; height:35px"type="submit">
+            <input style="font-size: 15px; margin-left: 15px; width:150px; height:35px"type="reset">
+        </form>
+
+    </body>
+</html>
