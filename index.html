@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Trekking-Hunt</title>
+        <style>
+            a{
+                color: white;
+            }
+            .header{        
+                background-color: #1A5D1A;
+                height: 90px;               
+                display: flex;
+            }
+            .banner{
+                border: 1px solid #000;
+            }
+            #navbar a:hover {
+                border-bottom: 2px #fff solid;
+            }
+            .footer{
+                padding-top: 10px;
+                height: 80px;
+                width: 100%px;
+                background-color: grey  ;
+            }
+            .main {
+                display: flex;
+                align-items: center; /* Aligns items vertically */
+                gap: 10px;
+            }
+            .flex-item {
+                flex: 1; /* Distributes available space equally among items */
+                padding: 10px;
+                border: 1px solid #000;
+                
+            }
+            a{
+                text-decoration: None;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--        Navigation Bar      -->
+    <div>    
+        <div class="header">
+            <h1 style=" padding-left:30px; color: white;">𝑻𝒓𝒆𝒌𝒌𝒊𝒏𝒈-𝑯𝒖𝒏𝒕</h1>
+            <div id="navbar">
+                <ul style="list-style: none; display: flex; gap: 30px; margin-left: 750px; padding-top: 20px;">
+                    <li><a href="#">Home</a></li>  
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login/SignUp</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--        Banner      -->  
+        <div class="banner">
+            <img src="./7.png" height="600px" width="100%px">
+        </div>
+        <!--        Div       -->
+        <div class="main" style="gap: 10px">
+            <div class="flex-item left" align="center">
+                <h1>Mount-Abu</h1>
+                <img src="./Abu.jpeg" width="300px" height="200px">
+            </div>
+            <div class="flex-item center" align="center">
+                <h1>Shimla</h1>
+                <img src="./Shimla.jpg" width="300px" height="200px">
+            </div>
+            <div class="flex-item right" align="center">
+                <h1>Dalhousie</h1>
+                <img src="./Dalhousie.jpeg" width="300px" height="200px">
+            </div>
+          </div>          
+        <br>
+        </div>
+        <!--        Footer       -->
+        <div class="footer">
+            <h2 style="margin-left: 6%;"> &copy; Copyright 2023 All Rights Reserved</h1>
+        </div>    
+    </div>
+    </body>
+
+</html>
