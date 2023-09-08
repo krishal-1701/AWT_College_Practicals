@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratical_7(Demo Of JavaScript Elements)</title>
+</head>
+<body id="body">
+
+<form>
+  <input type="submit" id="btn1">
+</form>
+
+<script>
+  var colors = ["red", "violet", "green", "blue", "black", "brown"];
+  var i = 0;
+  var body = document.getElementById('body');
+  var a = setInterval(()=>{
+    body.style.backgroundColor = colors[i];
+    ++i;
+
+    if( i == colors.length)
+    {
+      i = 0;
+    }
+    
+  }, 1000)
+clearInterval(a);  
+  
+</script>
+
+</body>
+</html>
